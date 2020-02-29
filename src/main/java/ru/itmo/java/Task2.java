@@ -1,4 +1,5 @@
 package ru.itmo.java;
+
 import java.lang.Math;
 
 @SuppressWarnings("all")
@@ -12,7 +13,7 @@ public class Task2 {
      * - вывод 0.9
      */
     double getFractionalPart(double realNumber) {
-        return realNumber - (long)realNumber;
+        return realNumber - (long) realNumber;
     }
 
     /**
